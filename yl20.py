@@ -1,1 +1,3 @@
-a = ("8 x 0 = 0", "8 x 1 = 8", )
+a = int(input("Sisesta arv: "))
+for c in range(13):
+    print(a, "x", c, "=", a * c)

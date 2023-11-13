@@ -1,3 +1,2 @@
-my_list = [1, 2, 3, 4, 5]
-for n in reversed(my_list):
+for n in range(5, 0, -1):
     print(n)
